@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMoney.Api", "MyMoney.Api\MyMoney.Api.csproj", "{CF956613-B25C-431B-B7E4-151D56B90B27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMoney.Infrastructure", "MyMoney.Infrastructure\MyMoney.Infrastructure.csproj", "{2433BEF5-1987-49BC-A3AD-198D280D0C7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF956613-B25C-431B-B7E4-151D56B90B27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF956613-B25C-431B-B7E4-151D56B90B27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF956613-B25C-431B-B7E4-151D56B90B27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF956613-B25C-431B-B7E4-151D56B90B27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2433BEF5-1987-49BC-A3AD-198D280D0C7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2433BEF5-1987-49BC-A3AD-198D280D0C7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2433BEF5-1987-49BC-A3AD-198D280D0C7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2433BEF5-1987-49BC-A3AD-198D280D0C7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B8B23E0-FE99-4782-90F8-B217FC5FAA16}
+	EndGlobalSection
+EndGlobal
