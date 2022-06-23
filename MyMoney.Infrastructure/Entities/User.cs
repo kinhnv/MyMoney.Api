@@ -9,14 +9,18 @@ namespace MyMoney.Infrastructure.Entities
 {
     public class User
     {
+        [Key]
         public Guid UserId { get; set; }
 
         [StringLength(64)]
-        public string UserName { get; set; }
+        [Required]
+        public string UserName { get; set; } = string.Empty;
 
         [StringLength(128)]
-        public string Password { get; set; }
+        [Required]
+        public string Password { get; set; } = string.Empty;
 
+        [Required]
         public Guid GroupId { get; set; }
     }
 }

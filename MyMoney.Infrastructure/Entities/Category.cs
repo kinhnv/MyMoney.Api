@@ -16,11 +16,14 @@ namespace MyMoney.Infrastructure.Entities
 
     public class Category
     {
+        [Key]
         public Guid CategoryId { get; set; }
 
         [StringLength(64)]
-        public string Name { get; set; }
+        [Required]
+        public string Name { get; set; } = string.Empty;
 
+        [Required]
         public int Type { get; set; }
 
         [NotMapped]

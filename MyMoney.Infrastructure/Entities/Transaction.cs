@@ -11,13 +11,20 @@ namespace MyMoney.Infrastructure.Entities
     {
         public Guid TransactionId { get; set; }
 
+        [Required]
         public Guid CategoryId { get; set; }
 
+        [Required]
         public double Price { get; set; }
 
         [StringLength(1024)]
-        public string Description { get; set; }
+        [Required]
+        public string Description { get; set; } = string.Empty;
 
+        [Required]
         public Guid CreatedBy { get; set; }
+
+        [Required]
+        public Guid CreatedAt { get; set; }
     }
 }

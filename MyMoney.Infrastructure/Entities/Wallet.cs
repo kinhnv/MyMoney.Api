@@ -9,11 +9,14 @@ namespace MyMoney.Infrastructure.Entities
 {
     public class Wallet
     {
+        [Key]
         public Guid WalletId { get; set; }
 
         [StringLength(64)]
-        public string Name { get; set; }
+        [Required]
+        public string Name { get; set; } = string.Empty;
 
+        [Required]
         public Guid GroupId { get; set; }
     }
 }
